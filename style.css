@@ -33,8 +33,10 @@ body {
 }
 
 .content {
+  display: flex;
+  flex-direction: column;
   width: 50%;
-  padding: 32px;
+  padding: 30px;
   color: hsl(212, 27%, 19%);
 }
 .content h1 {
@@ -49,24 +51,31 @@ body {
   margin-top: 16px;
 }
 .price {
+  display: flex;
+  align-items: center;
+  gap: 10px;
   font-family: 'Fraunces', serif;
   font-size: 32px;
-  margin-top: 24px;
+  margin-top: 8px;
+  padding: 0;
   color: hsl(158, 36%, 37%);
 }
 .price h2 {
   margin: 0;
   display: inline;
 }
-price p {
+.price p {
   display: inline;
   font-family: 'Montserrat', sans-serif;
   font-size: 14px;
   color: hsl(212, 27%, 19%);
   margin-top: 8px;
+  text-decoration: line-through;
 }
 .button {
-  display: inline-block;
+  margin-top: 20px;
+  width: 250px;
+  height: 50px;
   text-decoration: none;
   background-color: hsl(158, 36%, 37%);
   color: white;
@@ -75,5 +84,10 @@ price p {
   font-weight: 700;
   padding: 16px 32px;
   border-radius: 8px;
-  margin-top: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  img {
+    margin-right: 10px;
+  }
 }
