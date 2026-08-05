@@ -41,26 +41,39 @@ body {
 }
 .content h1 {
   font-family: 'Fraunces', serif;
-  font-size: 28px;
-  margin: 0;
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 1.2;
 }
-.content p {
+.category {
   font-family: 'Montserrat', sans-serif;
   font-size: 14px;
+  letter-spacing: 5px;
+  color: hsl(228, 12%, 48%);
   line-height: 1.5;
   margin-top: 16px;
+}
+.description {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.5;
+  color: hsl(228, 12%, 48%);
 }
 .price {
   display: flex;
   align-items: center;
   gap: 10px;
   font-family: 'Fraunces', serif;
-  font-size: 32px;
+  font-size: 28px;
   margin-top: 8px;
   padding: 0;
   color: hsl(158, 36%, 37%);
 }
 .price h2 {
+  font-family: 'Fraunces', serif;
+  font-size: 30px;
+  font-weight: 700;
   margin: 0;
   display: inline;
 }
@@ -69,7 +82,6 @@ body {
   font-family: 'Montserrat', sans-serif;
   font-size: 14px;
   color: hsl(212, 27%, 19%);
-  margin-top: 8px;
   text-decoration: line-through;
 }
 .button {
@@ -79,7 +91,7 @@ body {
   text-decoration: none;
   background-color: hsl(158, 36%, 37%);
   color: white;
-  font-family: 'Fraunces', serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 14px;
   font-weight: 700;
   padding: 16px 32px;
